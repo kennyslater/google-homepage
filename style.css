@@ -3,15 +3,75 @@
     margin: 0;
     padding: 0;
 }
-
-html {
-  height: 100%;
-}
-
 body {
-    min-height: 100%;
     font-family: Arial, sans-serif;
     font-size: 13px;
+}
+
+.right-menu-top{
+    float: right;
+    margin: 7px 0 0 10px;
+    padding-right: 30px;
+}
+
+.left-menu-top{
+    float: left;
+    color: #000;
+    opacity: 0.75;
+    margin: 7px 0 0 10px;
+}
+
+.left-menu-top a {
+    padding-left: 15px;   
+}
+
+.right-menu-top a{
+    padding-right: 15px;
+}
+
+.nav-bar{
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 2px;
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    height: 30px;
+    width: 70px;
+    font-size: 13px;
+    padding-left: 12px;
+}
+.app_image {
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    opacity: 70%;
+    opacity: 0.5; /* Standard compliant browsers */
+   -moz-opacity: 0.5; /* Firefox and Mozilla browsers */
+   -webkit-opacity: 0.5; /* WebKit browser e.g. Safari */
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.app_image:hover{
+    opacity: 100%;
+    opacity: 1; /* Standard compliant browsers */
+   -moz-opacity: 1; /* Firefox and Mozilla browsers */
+   -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 #container {
@@ -55,31 +115,14 @@ li {
     display: inline;
 }
 
-.right-menu-top{
-    float: right;
-    margin: 7px 0 0 10px;
-    padding-right: 30px;
-}
-
-.left-menu-top{
-    float: left;
-    color: #000;
-    opacity: 0.75;
-    margin: 7px 0 0 10px;
-}
-
-.left-menu-top a {
-    padding-left: 15px;   
-}
-
-.right-menu-top a{
-    padding-right: 15px;
-}
-
-.nav-bar{
-    line-height: 40px;
-    position: absolute;
+#footer{
+    background-color: #f2f2f2;
     width: 100%;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
 }
 
 .footer-right{
@@ -98,26 +141,6 @@ li {
 
 .footer-left{
     float: left;
-}
-
-.app_image {
-    padding-left: 15px;
-    padding-right: 0px;
-    vertical-align: middle;
-}
-
-.app_image:hover{
-    opacity: 70%;
-}
-
-#footer{
-    background-color: #f2f2f2;
-    width: 100%;
-    border-top: 1px solid #e4e4e4;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
 }
 
 .location{
@@ -190,24 +213,4 @@ a {
 .footer-nav{
     line-height: 40px;
     color: #5f6368;
-}
-
-.sign-in{
-    border: 1px solid #4285f4;
-    font-weight: bold;
-    outline: none;
-    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
-    color: #fff;
-    cursor: default;
-    text-decoration: none;
-    display: inline-block;
-    line-height: 28px;
-    border-radius: 2px;
-    text-align: left;
-    position: relative;
-    white-space: nowrap;
-    height: 30px;
-    width: 70px;
-    font-size: 13px;
-    padding-left: 12px;
 }
