@@ -1,0 +1,213 @@
+/* Fake Google CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    width: 590px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 109px;
+}
+h1#logo{
+    width: 272px;
+    height: 92px;
+    background: url(img/googlelogo_color_272x92dp.png) top left no-repeat; 
+    background-size: 100%;
+    text-indent: -9999px; 
+    margin: 0 auto;
+    
+}
+
+.search_bar { 
+	margin: 25px auto;
+	height: 45px;
+	width: 582px;
+	border: 1px solid #DCDCDC;
+	border-radius: 25px;
+    text-align: center; 
+}
+input {
+    height: 39px;
+	width: 487px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+    margin-top: 2px;
+}
+
+.search_bar:hover{
+    box-shadow: 0 0 5px #DCDCDC;
+}
+
+li {
+    display: inline;
+}
+
+.right-menu-top{
+    float: right;
+    margin: 7px 0 0 10px;
+    padding-right: 30px;
+}
+
+.left-menu-top{
+    float: left;
+    color: #000;
+    opacity: 0.75;
+    margin: 7px 0 0 10px;
+}
+
+.left-menu-top a {
+    padding-left: 15px;   
+}
+
+.right-menu-top a{
+    padding-right: 15px;
+}
+
+.nav-bar{
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-right{
+    float: right;
+}
+
+.footer-right a{
+    padding-right: 27px;
+    margin: 0 !important; 
+}
+
+.footer-left a{
+    padding-left: 27px;
+    margin: 0 !important;  
+}
+
+.footer-left{
+    float: left;
+}
+
+.app_image {
+    padding-left: 15px;
+    padding-right: 0px;
+    vertical-align: middle;
+}
+
+.app_image:hover{
+    opacity: 70%;
+}
+
+#footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.location{
+    font-size: 15px;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 100%;
+    padding-left: 27px;
+    line-height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+}
+
+li:hover{
+	text-decoration: underline;
+	cursor: pointer;   
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+    
+.buttons{
+    margin: 0 auto;
+    text-align: center;
+}
+.button {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.button:focus{
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.magnifying_glass {
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.voice_microphone {
+    float: right;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.footer-nav{
+    line-height: 40px;
+    color: #5f6368;
+}
+
+.sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 2px;
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    height: 30px;
+    width: 70px;
+    font-size: 13px;
+    padding-left: 12px;
+}
