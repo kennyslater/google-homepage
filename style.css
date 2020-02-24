@@ -38,12 +38,9 @@ body {
 .sign-in{
     border: 1px solid #4285f4;
     font-weight: bold;
-    outline: none;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     color: #fff;
     cursor: default;
-    text-decoration: none;
-    display: inline-block;
     line-height: 28px;
     border-radius: 2px;
     text-align: left;
